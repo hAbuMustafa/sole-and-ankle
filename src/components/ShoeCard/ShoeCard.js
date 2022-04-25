@@ -106,13 +106,14 @@ const SalePrice = styled.span`
 
 const Flag = styled.div`
   position: absolute;
-  top: 12;
-  right: -4;
+  top: 12px;
+  right: -4px;
   width: fit-content;
   height: 32px;
-  line-height: 32pc;
+  line-height: 32px;
   padding: 0 10px;
   border-radius: 2px;
+  color: ${COLORS.white};
   font-size: ${14 / 16}rem;
   font-weight: ${WEIGHTS.bold};
 `;
